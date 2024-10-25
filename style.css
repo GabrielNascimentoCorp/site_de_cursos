@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    align-items: center;
+
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+.nav-item a {
+    text-decoration: none;    
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+#section-1 {
+    background-image: url(./images/banner-gratuito.png);
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.folder-sale {
+    display: flex;
+    gap: 40px;
+    padding: 10px 10px;
+}
+
+.folder-1, .folder-2 {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.title-apresentation{
+    color: white;
+}
+
+
+.title-apresentation h1 {
+    margin-bottom: 30px;
+}
+
+.title-apresentation p {
+    font-size: 1.2rem; /* Ajusta o tamanho do parágrafo */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas para melhor legibilidade */
+    max-width: 530px; /* Limita a largura do parágrafo */
+
+}
+
+.nav-bar-desconto .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+}
+
+
+.nav-bar-desconto .container{
+    border-radius:30px;
+    padding: 40px auto 10px;
+} 
+
+.nav-bar-desconto {
+    padding: 10px;
+    background-color: rgb(0, 255, 179);
+}
+
+.timer {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    font-size: 2rem; 
+    font-weight: bold;
+} 
+
+
+.unit {
+    text-align: center; /* Centraliza o texto dentro de cada unidade */
+}
+
+.unit br {
+    display: none; /* Esconde a quebra de linha para manter o layout horizontal */
+}
+
+.section-2 .siderbar-courses {
+    display: flex;
+    justify-content: space-between; /* Alinha os botões à esquerda e o campo de busca à direita */
+    align-items: center; /* Alinha verticalmente os elementos */
+    flex-wrap: wrap; /* Permite que os botões e o campo de busca quebrem para a linha de baixo se necessário */
+    gap: 15px; /* Espaçamento entre os elementos */
+}
+
+.section-2 .btn-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espaçamento entre os botões */
+    justify-content: flex-start; /* Alinhamento à esquerda */
+    flex-grow: 1; /* Permite que os botões ocupem o máximo de espaço possível */
+}
+
+.section-2 .btn-courses button {
+    background-color: white;
+    border: 1px solid #E5E5E5; /* Borda fina e clara */
+    border-radius: 20px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-2 .btn-courses button:hover {
+    background-color: #f0f0f0; /* Efeito hover mais claro */
+}
+
+.section-2 .btn-courses a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.section-2 #divBusca {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Pequeno espaço à esquerda para o campo de busca */
+}
+
+#txtBusca {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px; /* Arredondamento igual ao estilo dos botões */
+    border: 1px solid #E5E5E5;
+    width: 250px; /* Largura da barra de busca */
+}
+
+#txtBusca::placeholder {
+    color: #aaa; /* Cor do placeholder */
+}
+
+
+.siderbar-courses {
+    margin-top: 40px;
+}
+
+.divBusca .input{
+    margin-top: 400px; 
+}
+
+
